@@ -1,4 +1,4 @@
-# Salve-counter
+# salve-counter
 
 ## Resumo do projeto
 Essa aplicação demonstra o uso da biblioteca [tmi.js] que facilita a obtenção de dados do chat da [twitch.tv].
@@ -10,7 +10,7 @@ A cada "Salve" enviado no chat do canal [Gaules], a partir de quando você abre 
   Para o funcionamento pleno do projeto, é necessário apenas clonar este repositório
 
 ```
-git clone git@github.com:GugaZC/Salve-counter.git
+git clone git@github.com:GugaZC/salve-counter.git
 ```
 
 ## Execução do projeto
