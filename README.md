@@ -1,7 +1,7 @@
 # Salve-counter
 
 ## Resumo do projeto
-Essa aplicação demonstra o uso da biblioteca [tmi.js] que provém uma forma de obter dados do chat da [twitch.tv].
+Essa aplicação demonstra o uso da biblioteca [tmi.js] que facilita a obtenção de dados do chat da [twitch.tv].
 A cada "Salve" enviado no chat do canal [Gaules], a partir de quando você abre a página, o contador aumenta em uma unidade.
 
 
