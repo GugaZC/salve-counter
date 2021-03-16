@@ -15,7 +15,7 @@ git clone git@github.com:GugaZC/Salve-counter.git
 
 ## Execução do projeto
 
-Para a execução do projeto, é necessário apenas abrir o arquivo index.html
+Para a execução do projeto, basta abrir o arquivo index.html no seu navegador de preferência
 
 ## Live demo
 
