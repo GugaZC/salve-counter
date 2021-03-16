@@ -21,17 +21,33 @@ body{
     align-items: center;
 }
 
+.info-container{
+    margin: 5rem 2rem;
+}
+
+.info-container .title{
+    font-family: 'Chivo', sans-serif;
+
+    font-size:2.5rem;
+    margin-bottom: 1rem;
+}
+
+.info-container p{
+    font-size:1.5rem;
+}
+
 #salve-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-auto-flow: column;
-    gap: 2px;
+    gap: 0.2rem;
 
     background: rgb(77, 92, 228);
-    min-height: 7rem;
-    width: 70%;
+    min-height: 8rem;
+    width: 90%;
     border-radius: 0.3rem;
     padding: 0.3rem;
+    margin: 0 2rem;
 }
 
 #salve-grid div{
@@ -44,25 +60,28 @@ body{
 
     border-radius: 0.3rem;
     
-    margin: 0.1rem
+    margin: 0.1rem;
 }
 
 #salve-grid p{
     margin: 0;
 }
 
-.info-container{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-}
+@media screen and (max-width: 690px) {
+    .info-container .title{
+        font-size: 2rem;
+    }
+    .info-container p{
+        font-size: 1rem;
+    }
+    #salve-grid{
+        min-height: 4rem;
+        padding: 0.1rem;
+        gap: 0.1px;
+    }
+    #salve-grid div{
+        font-size: 2rem;
+        
+    }
 
-.info-container .title{
-    font-family: 'Chivo', sans-serif;
-
-    font-size:2.5rem;
-    margin-bottom: 1rem;
-}
-
-.info-container p{
-    font-size:1.5rem;
 }
