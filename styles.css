@@ -46,6 +46,11 @@ body{
     
     margin: 0.1rem
 }
+
+#salve-grid p{
+    margin: 0;
+}
+
 .info-container{
     margin-top: 5rem;
     margin-bottom: 5rem;
