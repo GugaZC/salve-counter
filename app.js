@@ -2,12 +2,13 @@ const root = document.querySelector("#root");
 const salveGrid = document.querySelector("#salve-grid");
 
 let salveCounter = 0;
+let validator = /([S]|[s])[a+]+[l][v][e]/;
 
 const handleMessage = (message) => {
     const words = message.split(" ");
     words.forEach((word) => {
         word.toLowerCase();
-        if (word == "salve") {
+        if (word.match(validator)) {
             salveCounter++;
             displayCounter();
         }
